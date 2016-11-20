@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a,a:hover,a:active{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	visibility: hidden;
+	content: "";
+	height: 0;
+	clear: both;
+}
+img{
+	display: block;
+}
