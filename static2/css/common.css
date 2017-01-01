@@ -1,0 +1,85 @@
+body{
+	min-width: 1120px;
+}
+.common-container{
+	width: 1120px;
+	margin: 0 auto;
+}
+.common-header{
+	line-height: 108px;
+}
+.common-header-logo{
+	vertical-align: middle;
+}
+.common-header-nav{
+	float: right;
+	font-size: 0;
+}
+.common-header-nav li{
+	float: left;
+	height: 104px;
+}
+.common-header-nav li a{
+	display: inline-block;
+	text-align: center;
+	width: 120px;
+	font-size: 20px;
+}
+.common-header-nav .active{
+	border-bottom: 4px solid #3d9ee3;
+}
+.common-bgimg{
+	height: 497px;
+	background: url(../images/common-bgimg-bg.png) no-repeat center top;
+	background-size: auto 100%;
+}
+.common-footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #333;
+	color: #7b7b7b;
+	line-height: 30px;
+}
+.common-footer a{
+	color: #7b7b7b;
+}
+.common-footer-left{
+	width: 770px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.common-footer-left p span{
+	margin: 0 20px;
+}
+.common-footer-contact{
+	font-size: 25px;
+	height: 50px;
+	line-height: 45px;
+}
+.common-footer-contact i{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: 2px solid #ccc;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.common-footer-contact span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.common-footer-contact i:nth-child(3){
+	margin-left: 30px;
+}
+.common-footer-right{
+	float: right;
+	padding-top: 20px;
+}
+.common-footer-right ul li{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	text-align: center;
+}
